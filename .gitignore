@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+dist/
+.DS_Store
+.venv/
+venv/
+*.egg-info/
+.cache/
+/tmp/
+.venv
+*mtar
+*.daar
+*.zip
+.claude

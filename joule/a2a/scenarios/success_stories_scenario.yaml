@@ -1,0 +1,22 @@
+title: "SAP Customer Success Stories"
+description: >-
+  Searches the SAP Discovery Center catalogue for customer success stories relevant to a
+  described use case. Covers topics such as invoice automation, supply chain, digital
+  transformation, SAP BTP integration, and industry-specific SAP deployments.
+
+target:
+  type: function
+  name: success_stories_function
+  parameters:
+    - name: agent_context_id
+      value: $capability_context.agent_context_id
+    - name: agent_task_id
+      value: $capability_context.agent_task_id
+
+capability_context:
+  - name: agent_context_id
+    value: $target_result.agent_context_id
+  - name: agent_task_id
+    value: $target_result.agent_task_id
+  - name: agent_state
+    value: $target_result.agent_state

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ui5-webcomponents": {
+      "command": "npx",
+      "args": ["@ui5/mcp-server"]
+    },
+    "success-stories": {
+      "command": "agent/.venv/bin/python",
+      "args": ["agent/mcp/discovery_center_mcp_server.py"]
+    }
+  }
+}

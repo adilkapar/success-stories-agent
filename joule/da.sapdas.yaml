@@ -1,0 +1,5 @@
+schema_version: 1.6.0
+name: successstoriesagent
+capabilities:
+  - type: local
+    folder: ./a2a

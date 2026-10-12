@@ -1,0 +1,13 @@
+schema_version: 3.28.0
+
+metadata:
+  display_name: successstoriesagent
+  namespace: com.sap.das.dev
+  name: successstoriesagent
+  version: 1.0.0
+  description: >-
+    Find SAP customer success stories from the Discovery Center. Use for: find success stories, show me customer references, which companies use SAP for invoice automation, success stories about supply chain.
+
+system_aliases:
+  SUCCESS_STORIES_AGENT:
+    destination: SuccessStoriesAgent
